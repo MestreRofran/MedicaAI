@@ -1,0 +1,25 @@
+{
+  "name": "MedicaAI — Minha saúde organizada",
+  "short_name": "MedicaAI",
+  "description": "Consultas, remédios, horários e histórico de saúde para toda a família.",
+  "id": "./index.html",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "background_color": "#0b2342",
+  "theme_color": "#0d9488",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "categories": ["health", "medical", "lifestyle"],
+  "prefer_related_applications": false,
+  "icons": [
+    {"src":"./assets/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"./assets/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+    {"src":"./assets/icon-maskable-192.png","sizes":"192x192","type":"image/png","purpose":"maskable"},
+    {"src":"./assets/icon-maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+  ],
+  "shortcuts": [
+    {"name":"Abrir MedicaAI","short_name":"Início","description":"Abrir minha agenda de saúde","url":"./index.html","icons":[{"src":"./assets/icon-192.png","sizes":"192x192"}]}
+  ]
+}

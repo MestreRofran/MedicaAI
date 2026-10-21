@@ -1,0 +1,9 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // A versão 1.4 não precisa do Firebase Storage.
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}
