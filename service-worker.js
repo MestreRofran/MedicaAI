@@ -1,6 +1,6 @@
 /* MedicaAI 1.4 — armazenamento apenas dos arquivos públicos da aplicação.
    Nenhum dado clínico ou resposta da nuvem é interceptado ou cacheado aqui. */
-const SHELL_CACHE = 'medicaai-shell-v1.4.0';
+const SHELL_CACHE = 'medicaai-shell-v1.5';
 const APP_FILES = ['./','./index.html','./manifest.webmanifest',
   './assets/icon-192.png','./assets/icon-512.png',
   './assets/icon-maskable-192.png','./assets/icon-maskable-512.png',
