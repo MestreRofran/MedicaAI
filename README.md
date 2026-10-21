@@ -15,7 +15,7 @@ O aplicativo foi pensado para ser simples: funciona sem cadastro obrigatório, o
 - **Guardar informações úteis:** cadastre médicos, clínicas, hospitais e especialidades para reutilizar nos registros.
 - **Rever seu histórico:** encontre acontecimentos anteriores e registros de tratamentos.
 - **Personalizar o visual:** escolha entre estilo novo e clássico, tema claro ou escuro, organização das telas e posição dos botões.
-- **Guardar seus dados:** exporte arquivos de segurança ou, opcionalmente, entre em uma conta para enviar um backup criptografado à nuvem.
+- **Guardar seus dados:** exporte arquivos de segurança ou, opcionalmente, entre em uma conta para enviar uma cópia para a nuvem, com proteção adicional por senha se desejar.
 
 ## Como funciona
 
@@ -41,13 +41,13 @@ O projeto foi criado como uma aplicação web responsiva, buscando combinar uma 
 - **CSS3** para a aparência e adaptação a diferentes tamanhos de tela;
 - **JavaScript** para cadastro, navegação, calendário, registros e armazenamento local;
 - **Recursos PWA** para instalação e acesso à interface sem internet;
-- **Firebase Authentication e Cloud Firestore**, de maneira opcional, para conectar contas e armazenar backups criptografados.
+- **Firebase Authentication e Cloud Firestore**, de maneira opcional, para conectar contas e armazenar cópias de segurança opcionais, protegidas ou não por senha adicional.
 
 O MedicaAI foi pensado para funcionar em navegadores modernos e permitir personalizações por dispositivo, sem exigir login para as funções principais.
 
 ## Privacidade e atenção à saúde
 
-Os registros locais não são criptografados nesta versão. As cópias enviadas à nuvem são criptografadas antes do envio e requerem uma senha de proteção escolhida pela própria pessoa. Essa senha **não é recuperável** pelo aplicativo.
+Os registros locais não são criptografados nesta versão. Na nuvem, a cópia pode ser guardada **sem senha adicional**, usando apenas o acesso à conta, ou **com senha adicional**, criptografada no dispositivo antes do envio. Essa senha extra **não pode ser recuperada** pelo aplicativo. Sem ela, o backup não tem criptografia de ponta a ponta por senha, e sua privacidade depende da proteção da conta, das regras de acesso e do serviço de nuvem.
 
 O MedicaAI é uma ferramenta de organização e registro pessoal. **Ele não oferece diagnóstico, não substitui orientações médicas e não deve ser usado para decidir alterar doses ou tratamentos.**
 
